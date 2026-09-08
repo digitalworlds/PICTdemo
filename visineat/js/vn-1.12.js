@@ -35,7 +35,7 @@
 function VisiNeatAPI()
 {
 	this.libs={};
-	this.hostname="digitalworlds.github.io/PICTdemo";
+	this.hostname="digitalworlds.github.io/PICTdemo/visineat";
 	this.hosturl=(('https:' == document.location.protocol) ? 'https:' : 'http:')+'//'+this.hostname+'/';
 	//this.hosturl='';//uncomment this line to run it locally from a folder js and subfolder js/vn/
 	this.version='1.12';
