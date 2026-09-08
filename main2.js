@@ -197,7 +197,7 @@ function my_program()
 		gl.enable(gl.DEPTH_TEST);
 		
 		//print out the current FPS and scene complexity 
-		if(c.isNewFrame())c.setTitle('&nbsp;&nbsp;&nbsp;&nbsp;'+Math.round(c.getCamera().getFPSSmooth())+'fps '+c.getNumOfVertices()+' vertices '+c.getNumOfElements()+' faces');
+		//if(c.isNewFrame())c.setTitle('&nbsp;&nbsp;&nbsp;&nbsp;'+Math.round(c.getCamera().getFPSSmooth())+'fps '+c.getNumOfVertices()+' vertices '+c.getNumOfElements()+' faces');
 	});
 	
 	var net=new Networking();
